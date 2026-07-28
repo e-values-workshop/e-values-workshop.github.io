@@ -97,7 +97,7 @@ We invite short paper submissions (up to 4 pages excluding references and option
 | **Paper Submission Deadline** | TBD |
 | **Notification of Acceptance** | TBD |
 | **Camera-Ready Version Due** | TBD |
-| **Workshop Date** | December 2026 |
+| **Workshop Date** | 12th or 13th December 2026 (TBD) |
 
 > **Note:** All deadlines are 23:59 Anywhere on Earth (AOE).
 
