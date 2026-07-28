@@ -1,7 +1,7 @@
 <nav class="workshop-nav" aria-label="Workshop page navigation">
   <div class="workshop-nav__inner">
 
-    <a class="workshop-nav__brand" href="#top">
+    <a class="workshop-nav__brand" href="#">
       E-Values
       <span>NeurIPS 2026 Workshop</span>
     </a>
@@ -18,7 +18,7 @@
   </div>
 </nav>
 
-<div id="top"></div>
+<!-- <div id="top"></div> -->
 
 <!-- # E-Values: From Statistics to ML
 
