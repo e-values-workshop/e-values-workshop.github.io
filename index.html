@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
-    <a class="skip-link" href="#overview">Skip to content</a>
+    <a class="skip-link" href="#top">Skip to content</a>
 
     <header class="site-header">
       <div class="shell header-inner">
@@ -34,7 +34,6 @@
         </a>
 
         <nav class="desktop-nav" aria-label="Main navigation">
-          <a href="#overview">Overview</a>
           <a href="#topics">Topics</a>
           <a href="#speakers">Speakers</a>
           <a href="#schedule">Schedule</a>
@@ -47,7 +46,6 @@
       </div>
 
       <nav class="mobile-nav shell" aria-label="Mobile navigation">
-        <a href="#overview">Overview</a>
         <a href="#topics">Topics</a>
         <a href="#speakers">Speakers</a>
         <a href="#schedule">Schedule</a>
@@ -81,12 +79,20 @@
               <a class="button secondary" href="#schedule">Workshop Schedule</a>
             </div>
 
-            <ul class="pill-list" aria-label="Workshop highlights">
-              <li>Anytime-valid inference</li>
-              <li>Sequential testing</li>
-              <li>Safe post-selection analysis</li>
-              <li>Trustworthy ML evaluation</li>
-            </ul>
+            <div class="hero-overview" aria-label="Workshop overview">
+              <article>
+                <h2>Safe Evidence</h2>
+                <p>Type-I error guarantees that remain meaningful under adaptive choices.</p>
+              </article>
+              <article>
+                <h2>Adaptive ML</h2>
+                <p>Methods for systems evaluated, audited, and updated sequentially.</p>
+              </article>
+              <article>
+                <h2>Shared Forum</h2>
+                <p>Talks, posters, a panel, and an open problem session for community building.</p>
+              </article>
+            </div>
           </div>
 
           <aside class="glance-panel" aria-label="Workshop details at a glance">
@@ -101,54 +107,11 @@
                 <dd>Paris, France</dd>
               </div>
               <div>
-                <dt>Venue</dt>
-                <dd>NeurIPS 2026</dd>
-              </div>
-              <div>
                 <dt>Format</dt>
                 <dd>Invited talks, contributed orals, posters, and panel discussion</dd>
               </div>
             </dl>
           </aside>
-        </div>
-      </section>
-
-      <section id="overview" class="section shell">
-        <div class="section-heading">
-          <p class="eyebrow">Overview</p>
-          <div class="rule"></div>
-          <h2>Bringing the e-values community to machine learning.</h2>
-          <p>
-            E-values, e-processes, and the associated confidence and prediction sets offer
-            uncertainty quantification that remains valid under continuous monitoring, optional
-            stopping, adaptive experimentation, and data-dependent choices of significance level.
-          </p>
-        </div>
-
-        <div class="three-column">
-          <article class="panel">
-            <h3>Safe Evidence</h3>
-            <p>
-              E-values provide Type-I error guarantees while allowing prior information to be used
-              in a principled way: when the prior is poorly aligned with the data, intervals get
-              wider rather than wrong.
-            </p>
-          </article>
-          <article class="panel">
-            <h3>Adaptive ML</h3>
-            <p>
-              Modern ML systems are increasingly evaluated, audited, and updated sequentially,
-              creating a need for methods that remain valid under repeated looks and adaptive
-              decisions.
-            </p>
-          </article>
-          <article class="panel">
-            <h3>Community Building</h3>
-            <p>
-              The workshop aims to strengthen links between statistics and ML through invited and
-              contributed talks, posters, a panel discussion, and an open problem session.
-            </p>
-          </article>
         </div>
       </section>
 
