@@ -413,10 +413,12 @@ h1 {
 
 .organizer-grid {
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  align-items: start;
+  align-items: stretch;
 }
 
 .person-card {
+  display: flex;
+  flex-direction: column;
   padding: 1.35rem;
 }
 
@@ -476,10 +478,10 @@ h1 {
 }
 
 .organizer-photo {
-  width: 4.35rem;
-  height: 4.35rem;
+  width: 5.25rem;
+  height: 5.25rem;
   border: 1px solid rgba(216, 229, 232, 0.9);
-  border-radius: 17px;
+  border-radius: 19px;
   background: var(--mist);
   box-shadow: 0 8px 20px rgba(18, 48, 71, 0.08);
   object-fit: cover;
