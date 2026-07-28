@@ -219,3 +219,71 @@ section[id] {
     font-size: 1rem;
   }
 }
+
+
+/* Light background behind the section cards */
+body {
+  background: #f3f6f4;
+}
+
+/* Cayman content container */
+.main-content {
+  max-width: 76rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background: transparent;
+}
+
+/* Box surrounding each main section */
+.content-card {
+  margin-bottom: 2rem;
+  padding: 2.4rem 2.7rem;
+
+  background: #ffffff;
+  border: 1px solid #e0e8e4;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(7, 21, 16, 0.07);
+
+  scroll-margin-top: calc(var(--workshop-nav-height) + 24px);
+}
+
+/* Remove excessive space above the heading inside each box */
+.content-card > h2:first-child {
+  margin-top: 0;
+  padding-bottom: 0.65rem;
+
+  color: #11684f;
+  border-bottom: 2px solid #dcebe5;
+}
+
+/* Improve tables inside cards */
+.content-card table {
+  display: table;
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+/* Slight lift when hovering over a section */
+.content-card {
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.content-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 34px rgba(7, 21, 16, 0.1);
+}
+
+/* Mobile layout */
+@media screen and (max-width: 720px) {
+  .main-content {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .content-card {
+    margin-bottom: 1.25rem;
+    padding: 1.5rem 1.25rem;
+    border-radius: 12px;
+  }
+}
