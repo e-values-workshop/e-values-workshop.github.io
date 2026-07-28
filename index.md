@@ -1,7 +1,7 @@
 # E-Values: From Statistics to ML
 
 **NeurIPS 2026 Workshop** (Paris Satellite Site)  
-**Date:** December 9–13, 2026  
+**Date:** December 12–13, 2026  
 **Location:** Paris, France 
 
 ---
