@@ -1,3 +1,9 @@
 title: "E-Values: From Statistics to ML"
 description: "Workshop at Neural Information Processing Systems 2026 (Paris)"
 theme: jekyll-theme-cayman # Options: jekyll-theme-minimal, jekyll-theme-architect
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  auto_ids: true

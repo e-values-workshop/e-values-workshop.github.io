@@ -1,3 +1,25 @@
+<nav class="workshop-nav" aria-label="Workshop page navigation">
+  <div class="workshop-nav__inner">
+
+    <a class="workshop-nav__brand" href="#top">
+      E-Values
+      <span>NeurIPS 2026 Workshop</span>
+    </a>
+
+    <div class="workshop-nav__links">
+      <a href="#overview">Overview</a>
+      <a href="#dates">Dates</a>
+      <a href="#cfp">Call for Papers</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#organizers">Organizers</a>
+    </div>
+
+  </div>
+</nav>
+
+<div id="top"></div>
+
 # E-Values: From Statistics to ML
 
 **Date:** December 12th or 13th, 2026 (TBD)
@@ -7,6 +29,7 @@
 ---
 
 ## Overview
+{: #overview}
 
 Recent years have seen a paradigm shift in hypothesis testing and uncertainty quantification through the development of **e-values**. Defined as non-negative random variables with an expectation under the null hypothesis bounded by $1$, e-values provide an elegant framework for anytime-valid inference, sequential testing, and safe post-selection analysis.
 
@@ -16,6 +39,7 @@ This workshop at **NeurIPS 2026 (Paris)** brings together researchers in machine
 
 
 ## Invited Speakers
+{: #speakers}
 
 * **Speaker 1** (Affiliation) – *Talk Title TBD*
 * **Speaker 2** (Affiliation) – *Talk Title TBD*
@@ -26,6 +50,7 @@ This workshop at **NeurIPS 2026 (Paris)** brings together researchers in machine
 ---
 
 ## Schedule
+{: #schedule}
 
 | Time | Session |
 | :--- | :--- |
@@ -44,6 +69,7 @@ This workshop at **NeurIPS 2026 (Paris)** brings together researchers in machine
 ---
 
 ## Call for Papers
+{: #cfp}
 
 We invite short paper submissions (up to 4 pages excluding references and optional appendices) on theoretical, algorithmic, or practical aspects of e-values and related topics, including but not limited to:
 
@@ -64,6 +90,7 @@ We invite short paper submissions (up to 4 pages excluding references and option
 ---
 
 ## Important Dates
+{: #dates}
 
 | Event | Date (AOE) |
 | :--- | :--- |
@@ -77,6 +104,7 @@ We invite short paper submissions (up to 4 pages excluding references and option
 ---
 
 ## Organizers
+{: #organizers}
 
 * **Shubhada Agrawal** (Indian Institute of Science, Bangalore)
 * **Sebastian Arnold** (CWI, Amsterdam)
