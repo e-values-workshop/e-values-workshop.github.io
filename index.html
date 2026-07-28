@@ -69,8 +69,11 @@
               analysis to advance e-values in modern ML systems.
             </p>
             <p class="hero-text">
-              Recent years have seen a paradigm shift in hypothesis testing and uncertainty quantification
-              through e-values: non-negative random variables whose null expectation is bounded by one.
+              Recent years have seen a paradigm shift in hypothesis testing and uncertainty
+              quantification through e-values: non-negative random variables whose null expectation
+              is bounded by one. They support anytime-valid inference, continuous monitoring, and
+              data-adaptive decision making, making them especially relevant for modern ML systems
+              that are evaluated, audited, and updated sequentially.
             </p>
 
             <div class="hero-actions" aria-label="Primary actions">
@@ -114,33 +117,36 @@
         <div class="section-heading">
           <p class="eyebrow">Overview</p>
           <div class="rule"></div>
-          <h2>E-values are changing how we test, monitor, and decide.</h2>
+          <h2>Bringing the e-values community to machine learning.</h2>
           <p>
-            This workshop explores theoretical breakthroughs and emerging practical applications of
-            e-values in modern machine learning.
+            E-values, e-processes, and the associated confidence and prediction sets offer
+            uncertainty quantification that remains valid under continuous monitoring, optional
+            stopping, adaptive experimentation, and data-dependent choices of significance level.
           </p>
         </div>
 
         <div class="three-column">
           <article class="panel">
-            <h3>Foundations</h3>
+            <h3>Safe Evidence</h3>
             <p>
-              E-values provide an elegant framework for anytime-valid inference, sequential testing,
-              and safe analysis after data-adaptive choices.
+              E-values provide Type-I error guarantees while allowing prior information to be used
+              in a principled way: when the prior is poorly aligned with the data, intervals get
+              wider rather than wrong.
             </p>
           </article>
           <article class="panel">
-            <h3>Machine Learning</h3>
+            <h3>Adaptive ML</h3>
             <p>
-              Modern ML systems create new testing challenges through adaptivity, dependence,
-              distribution shift, model selection, and deployment monitoring.
+              Modern ML systems are increasingly evaluated, audited, and updated sequentially,
+              creating a need for methods that remain valid under repeated looks and adaptive
+              decisions.
             </p>
           </article>
           <article class="panel">
-            <h3>Shared Forum</h3>
+            <h3>Community Building</h3>
             <p>
-              The workshop aims to connect researchers across statistics, ML, game-theoretic
-              probability, and sequential analysis.
+              The workshop aims to strengthen links between statistics and ML through invited and
+              contributed talks, posters, a panel discussion, and an open problem session.
             </p>
           </article>
         </div>
@@ -151,10 +157,11 @@
           <div class="section-heading">
             <p class="eyebrow">Topics</p>
             <div class="rule"></div>
-            <h2>Foundations, adaptive inference, and practice</h2>
+            <h2>From safe testing to deployed ML systems</h2>
             <p>
               We welcome polished results as well as early ideas, emerging connections, practical
-              case studies, and open questions around e-values and modern machine learning.
+              case studies, and open questions that help define the role of e-values in machine
+              learning.
             </p>
           </div>
 
@@ -162,33 +169,33 @@
             <article class="panel topic-panel">
               <h3>Foundations &amp; Theory</h3>
               <ol>
-                <li>E-values, e-processes, and test martingales</li>
-                <li>Game-theoretic statistics and game-theoretic probability</li>
-                <li>E-values versus p-values and Bayes factors</li>
-                <li>High-dimensional and nonparametric inference</li>
-                <li>Foundational limits, guarantees, and new problem formulations</li>
+                <li>E-values, e-processes, test martingales, and game-theoretic probability</li>
+                <li>Anytime-valid confidence intervals, prediction sets, and safe testing</li>
+                <li>E-values as evidence, including links to p-values and Bayes factors</li>
+                <li>E-values, Bayesian methods, pseudo-Bayesian methods, and e-posteriors</li>
+                <li>Multiple testing, FDR, FWER, and empirical-Bayes connections</li>
               </ol>
             </article>
 
             <article class="panel topic-panel">
               <h3>Sequential &amp; Adaptive Inference</h3>
               <ol>
-                <li>Anytime-valid and sequential hypothesis testing</li>
-                <li>Optional stopping, optional continuation, and adaptive data analysis</li>
-                <li>Multiple testing, FDR, and FWER control with e-values</li>
-                <li>Model selection, model comparison, and post-selection inference</li>
-                <li>Causal inference, adaptive experimentation, and bandit algorithms</li>
+                <li>Optional stopping, optional continuation, and continuous monitoring</li>
+                <li>Conformal prediction, adaptive coverage, and e-based prediction sets</li>
+                <li>A/B testing, adaptive experimentation, and pure exploration in bandits</li>
+                <li>Anytime-valid inference and regret in online or adversarial learning</li>
+                <li>Model comparison, forecast evaluation, calibration, and post-selection inference</li>
               </ol>
             </article>
 
             <article class="panel topic-panel">
               <h3>ML, Computation &amp; Case Studies</h3>
               <ol>
-                <li>Applications in machine learning, A/B testing, and data streams</li>
-                <li>LLM evaluation, trustworthy AI, and deployment monitoring</li>
-                <li>Distribution shift, anomaly detection, and robust uncertainty quantification</li>
-                <li>Software, computation, and practical implementation of e-values</li>
-                <li>Scientific and industrial case studies using e-values</li>
+                <li>Uncertainty quantification for LLMs and foundation models</li>
+                <li>Detection of LLM-generated text, watermarking, and AI auditing</li>
+                <li>Continuous auditing for fairness, privacy, subgroup failures, and reliability</li>
+                <li>Distribution shift, anomaly detection, interpretability, and automated hypotheses</li>
+                <li>Software, computation, and scientific or industrial case studies</li>
               </ol>
             </article>
           </div>
@@ -302,7 +309,7 @@
               </div>
               <div class="schedule-item">
                 <time>16:15 - 17:00</time>
-                <p>Closing Remarks &amp; Poster Awards</p>
+                <p>Poster Session &amp; Closing Remarks</p>
               </div>
             </article>
           </div>
@@ -326,7 +333,12 @@
               <h3>Submission Guidelines</h3>
               <ul class="check-list">
                 <li>Short papers up to 4 pages, excluding references and optional appendices.</li>
-                <li>Papers should use the standard NeurIPS 2026 LaTeX template.</li>
+                <li>
+                  Papers should use the standard
+                  <a href="https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip" target="_blank" rel="noreferrer">
+                    NeurIPS 2026 LaTeX template
+                  </a>.
+                </li>
                 <li>Submissions are double-blind and must be anonymized.</li>
                 <li>Accepted papers will be presented as posters, with a subset selected for oral talks.</li>
               </ul>

@@ -600,6 +600,19 @@ h1 {
   background: var(--teal);
 }
 
+.check-list a {
+  color: var(--teal);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(15, 118, 110, 0.26);
+  text-underline-offset: 0.18em;
+}
+
+.check-list a:hover {
+  color: var(--ink);
+  text-decoration-color: rgba(18, 48, 71, 0.42);
+}
+
 .submission-box {
   padding: 1.5rem;
 }
