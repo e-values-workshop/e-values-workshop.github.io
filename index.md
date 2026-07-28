@@ -20,13 +20,13 @@
 
 <div id="top"></div>
 
-<!-- # E-Values: From Statistics to ML -->
+<!-- # E-Values: From Statistics to ML
 
-**Date:** December 12th or 13th, 2026 (TBD)
+**Date:** December 12th or 13th, 2026 (TBD) 
 
 **Location:** Paris, France 
 
----
+--- -->
 
 ## Overview
 {: #overview}

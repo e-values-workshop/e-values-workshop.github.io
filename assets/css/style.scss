@@ -168,3 +168,22 @@ section[id] {
     font-size: 0.8rem;
   }
 }
+
+/* Third line in the Cayman page header */
+.project-tagline .workshop-date {
+  display: block;
+  margin-top: 1.25rem;
+
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* Slightly smaller on mobile devices */
+@media screen and (max-width: 720px) {
+  .project-tagline .workshop-date {
+    margin-top: 0.9rem;
+    font-size: 1rem;
+  }
+}
