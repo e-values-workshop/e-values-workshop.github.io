@@ -1,0 +1,170 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+  --workshop-nav-height: 68px;
+  --workshop-nav-background: #071510;
+  --workshop-nav-accent: #8de2b1;
+}
+
+/*
+ * Leave space for the fixed navigation bar and prevent section
+ * headings from being hidden underneath it.
+ */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--workshop-nav-height) + 20px);
+}
+
+body {
+  padding-top: var(--workshop-nav-height);
+}
+
+/* Fixed top navigation strip */
+.workshop-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+
+  height: var(--workshop-nav-height);
+  background: rgba(7, 21, 16, 0.97);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.workshop-nav__inner {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  width: 100%;
+  max-width: 64rem;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Workshop name on the left */
+.workshop-nav__brand {
+  flex: 0 0 auto;
+
+  color: #ffffff !important;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-decoration: none !important;
+}
+
+.workshop-nav__brand span {
+  display: block;
+  margin-top: 3px;
+
+  color: rgba(255, 255, 255, 0.63);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+/* Section links on the right */
+.workshop-nav__links {
+  display: flex;
+  align-items: center;
+  gap: 1.35rem;
+
+  min-width: 0;
+  margin-left: auto;
+  overflow-x: auto;
+
+  scrollbar-width: none;
+}
+
+.workshop-nav__links::-webkit-scrollbar {
+  display: none;
+}
+
+.workshop-nav__links a {
+  position: relative;
+  flex: 0 0 auto;
+
+  padding: 9px 0;
+
+  color: rgba(255, 255, 255, 0.76) !important;
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none !important;
+}
+
+.workshop-nav__links a::after {
+  content: "";
+
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+  left: 0;
+
+  height: 2px;
+  background: var(--workshop-nav-accent);
+
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 160ms ease;
+}
+
+.workshop-nav__links a:hover,
+.workshop-nav__links a:focus {
+  color: #ffffff !important;
+}
+
+.workshop-nav__links a:hover::after,
+.workshop-nav__links a:focus::after {
+  transform: scaleX(1);
+}
+
+/*
+ * Additional safeguard so linked headings are visible below
+ * the fixed navigation bar.
+ */
+h1[id],
+h2[id],
+h3[id],
+div[id],
+section[id] {
+  scroll-margin-top: calc(var(--workshop-nav-height) + 20px);
+}
+
+/* Mobile layout */
+@media screen and (max-width: 720px) {
+  :root {
+    --workshop-nav-height: 60px;
+  }
+
+  .workshop-nav__inner {
+    gap: 1rem;
+    padding: 0 0.9rem;
+  }
+
+  .workshop-nav__brand {
+    font-size: 0.87rem;
+  }
+
+  .workshop-nav__brand span {
+    display: none;
+  }
+
+  .workshop-nav__links {
+    gap: 1rem;
+  }
+
+  .workshop-nav__links a {
+    font-size: 0.8rem;
+  }
+}
