@@ -447,6 +447,7 @@ h1 {
 
 .person-card span {
   display: inline-flex;
+  max-width: 100%;
   margin-top: 1rem;
   border: 1px solid rgba(216, 229, 232, 0.9);
   border-radius: 999px;
@@ -455,6 +456,7 @@ h1 {
   color: var(--teal);
   font-size: 0.78rem;
   font-weight: 700;
+  line-height: 1.35;
 }
 
 .person-card.compact {
@@ -482,6 +484,17 @@ h1 {
   box-shadow: 0 8px 20px rgba(18, 48, 71, 0.08);
   object-fit: cover;
   object-position: center top;
+}
+
+.speaker-photo {
+  width: 5.25rem;
+  height: 5.25rem;
+  border: 1px solid rgba(216, 229, 232, 0.9);
+  border-radius: 19px;
+  background: var(--mist);
+  box-shadow: 0 8px 20px rgba(18, 48, 71, 0.08);
+  object-fit: cover;
+  object-position: center 18%;
 }
 
 .avatar {
