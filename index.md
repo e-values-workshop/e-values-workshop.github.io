@@ -8,10 +8,10 @@
 
     <div class="workshop-nav__links">
       <a href="#overview">Overview</a>
-      <a href="#dates">Dates</a>
-      <a href="#cfp">Call for Papers</a>
       <a href="#speakers">Speakers</a>
       <a href="#schedule">Schedule</a>
+      <a href="#cfp">Call for Papers</a>
+      <a href="#dates">Dates</a>
       <a href="#organizers">Organizers</a>
     </div>
 
@@ -20,7 +20,7 @@
 
 <div id="top"></div>
 
-# E-Values: From Statistics to ML
+% # E-Values: From Statistics to ML
 
 **Date:** December 12th or 13th, 2026 (TBD)
 
