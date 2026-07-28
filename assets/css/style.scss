@@ -187,3 +187,35 @@ section[id] {
     font-size: 1rem;
   }
 }
+
+/* Compact the lower part of the Cayman hero header */
+.page-header {
+  padding-bottom: 2.25rem !important;
+}
+
+.project-tagline {
+  margin-bottom: 0 !important;
+}
+
+/* Keep some separation between the subtitle and workshop date */
+.project-tagline .workshop-date {
+  display: block;
+  margin-top: 1.1rem;
+  margin-bottom: 0;
+
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+@media screen and (max-width: 720px) {
+  .page-header {
+    padding-bottom: 1.75rem !important;
+  }
+
+  .project-tagline .workshop-date {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+  }
+}
