@@ -607,11 +607,27 @@ h1 {
 }
 
 .submission-box {
-  padding: 1.5rem;
+  display: flex;
+  min-height: 13.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 2rem;
+  background:
+    linear-gradient(180deg, rgba(239, 246, 246, 0.58), rgba(255, 255, 255, 0.96)),
+    #fff;
 }
 
 .submission-box p:not(.eyebrow) {
-  margin: 1rem 0 1.35rem;
+  margin: 0.95rem 0 1.65rem;
+  color: rgba(48, 78, 99, 0.78);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.submission-box .button {
+  width: 100%;
+  box-shadow: 0 10px 24px rgba(18, 48, 71, 0.12);
 }
 
 .dates-grid {
