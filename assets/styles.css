@@ -259,6 +259,20 @@ h1 {
   margin-top: 2rem;
 }
 
+.hero-update {
+  display: inline-flex;
+  max-width: 650px;
+  margin-top: 1.1rem;
+  border: 1px solid rgba(15, 118, 110, 0.22);
+  border-radius: 999px;
+  background: rgba(239, 246, 246, 0.72);
+  padding: 0.55rem 0.85rem;
+  color: rgba(18, 48, 71, 0.86);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
 .button.primary {
   border-color: var(--ink);
   background: var(--ink);
