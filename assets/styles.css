@@ -672,6 +672,11 @@ h1 {
   line-height: 1.45;
 }
 
+.date-card s {
+  color: rgba(18, 48, 71, 0.72);
+  text-decoration-thickness: 0.09em;
+}
+
 .site-footer {
   border-top: 1px solid rgba(216, 229, 232, 0.86);
   background: #fff;
